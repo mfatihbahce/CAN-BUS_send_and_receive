@@ -27,7 +27,7 @@ Arduino Uno'yu bilgisayarınıza bağlayın ve kodu yükleyin.<br>
 <br>
 <h5>Geliştirme</h5>
 Bu proje, MCP_CAN kütüphanesi ile başlangıç seviyesinde CAN-BUS programlama öğrenmek isteyenler için iyi bir kaynak olabilir. Projenin daha da geliştirilebilecek pek çok yönü var, örneğin:
-<br>
+<br> 
 Farklı veri tipleri göndererek mesaj formatını çeşitlendirme<br>
 İleri düzey bir hata ayıklama mekanizması ekleyerek kodu daha güvenilir hale getirme<br>
 Bu kod örneğini farklı senaryolara uyacak şekilde kolayca özelleştirebilirsiniz.<br>
