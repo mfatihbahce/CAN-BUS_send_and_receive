@@ -1,13 +1,13 @@
 # CAN-BUS Send and Receive
 
 Bu projede, Arduino ve MCP2515 CAN (Controller Area Network) modülü kullanarak bir CAN veri alışverişi örneği oluşturduk. CAN, araçlarda sıklıkla kullanılan bir iletişim protokolüdür ve birden çok cihazın birbirleriyle veri paylaşmasını sağlar. Bu proje, CAN protokolü hakkında fikir edinmek isteyenler için iyi bir öğrenme aracıdır.
-<br>
+<br><br>
 Projede, bir veri paketi gönderip almayı gösterdim. Önce bir veri paketi hazırladım ve ardından MCP2515 modülü aracılığıyla CANBUS'a gönderdim. Daha sonra, aynı BUS üzerinden gelen veriyi okudum. Veri paketindeki mesaj formatını ve içeriğini okuyarak, bir cihazın diğerine nasıl veri gönderebileceği hakkında fikir edinebilirsiniz.
-<br>
+<br><br>
 Projenin kodu oldukça basit ve anlaşılır. Arduino ve MCP2515 modülü arasında SPI arabirimini kullanarak iletişim kuruyoruz. Kodumuzda, CAN veri paketlerinin nasıl oluşturulup gönderileceği ve nasıl alınacağı adım adım açıklanıyor. Projeyi kendiniz de deneyerek, CAN protokolü hakkında daha fazla bilgi edinebilirsiniz.
-<br>
+<br><br>
 Bu proje, araç içi uygulamalardan endüstriyel otomasyon sistemlerine kadar geniş bir yelpazede kullanılan CAN protokolü hakkında temel bilgiler sağlar. Ayrıca, Arduino ve MCP2515 modülü gibi ucuz ve yaygın olarak kullanılan bileşenleri kullanarak, projenin yapımı da oldukça kolaydır. Kendi projelerinizde CAN protokolünü kullanmak istiyorsanız, bu proje size iyi bir başlangıç noktası olabilir.
-<br>
+<br><br>
 <h5>#CAN-BUS Send and Receive</h5>
 Bu proje, MCP2515 kontrolcüsü kullanarak CAN-BUS veri yolu üzerinde mesaj gönderme ve alma işlevselliğini gösterir. Bu kod, Arduino ve MCP_CAN kütüphanesi kullanılarak yazılmıştır.
 <br>
