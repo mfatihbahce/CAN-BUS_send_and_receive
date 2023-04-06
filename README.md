@@ -11,21 +11,21 @@ Bu proje, araç içi uygulamalardan endüstriyel otomasyon sistemlerine kadar ge
 <h5>#CAN-BUS Send and Receive</h5>
 Bu proje, MCP2515 kontrolcüsü kullanarak CAN-BUS veri yolu üzerinde mesaj gönderme ve alma işlevselliğini gösterir. Bu kod, Arduino ve MCP_CAN kütüphanesi kullanılarak yazılmıştır.
 <br>
-<h5>Nasıl Çalışır?</h5>
+<h5># Nasıl Çalışır?</h5>
 MCP2515 kontrolcüsü, Arduino'dan gelen verileri CAN-BUS veri yoluna yazar ve verileri okuyarak Arduino'ya geri gönderir. Bu kod, 14 baytlık bir veri dizisi oluşturarak bir mesaj gönderir ve ardından gelen mesajları okur.
 <br>
-<h5>Gereksinimler</h5>
+<h5># Gereksinimler</h5>
 Arduino Uno<br>
 MCP2515 CAN-BUS kontrolcüsü<br>
 MCP_CAN kütüphanesi<br>
 <br>
-<h5>Yükleme</h5>
+<h5># Yükleme</h5>
 Arduino IDE'de yeni bir proje açın.<br>
 MCP_CAN kütüphanesini indirin ve Arduino IDE'de yükleyin.<br>
 Bu kod örneğini kopyalayın ve Arduino IDE'de yeni bir dosyaya yapıştırın.<br>
 Arduino Uno'yu bilgisayarınıza bağlayın ve kodu yükleyin.<br>
 <br>
-<h5>Geliştirme</h5>
+<h5># Geliştirme</h5>
 Bu proje, MCP_CAN kütüphanesi ile başlangıç seviyesinde CAN-BUS programlama öğrenmek isteyenler için iyi bir kaynak olabilir. Projenin daha da geliştirilebilecek pek çok yönü var, örneğin:
 <br> 
 Farklı veri tipleri göndererek mesaj formatını çeşitlendirme<br>
